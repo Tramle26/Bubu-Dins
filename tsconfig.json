@@ -1,0 +1,4 @@
+{
+  "extends": "@pathmx/core/tsconfig",
+  "include": ["actions/**/*", "plugins/**/*"]
+}

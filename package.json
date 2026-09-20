@@ -1,0 +1,37 @@
+{
+  "name": "bubu-learning-game-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pmx dev --port 3017",
+    "start": "pmx serve",
+    "check": "pmx lint",
+    "typecheck": "tsc --noEmit",
+    "pmx": "pmx",
+    "test": "bun test",
+    "materials:index": "python3 scripts/index-materials.py"
+  },
+  "dependencies": {
+    "@pathmx/auth": "0.6.7",
+    "@pathmx/completion": "0.6.7",
+    "@pathmx/core": "0.6.7",
+    "@pathmx/mermaid": "0.6.7",
+    "@pathmx/player": "0.6.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.0",
+    "typescript": "^5"
+  },
+  "pathmx": {
+    "plugins": {
+      "@pathmx/auth": {},
+      "@pathmx/player": {}
+    }
+  },
+  "overrides": {
+    "zod": "4.4.3"
+  }
+}
