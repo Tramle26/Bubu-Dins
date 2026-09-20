@@ -1,0 +1,25 @@
+@import url("./global.css");
+
+/* Keep the supplied composition together. Cover only the example progress
+   with live, accessible HTML. Small screens can pan across the same map. */
+.portfolio-viewport{width:100%;overflow-x:auto;background:#85d9f6}
+.portfolio-board{position:relative;isolation:isolate;width:100%;min-width:1000px;aspect-ratio:1672/941;background:url('/assets/portfolio-reference.png') center/100% 100% no-repeat;color:#0960c8;font-family:'Nunito',sans-serif;container-type:inline-size}
+.portfolio-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.portfolio-back{position:absolute;left:9%;top:6.2%;width:9%;height:3.5%;border-radius:6px}
+.portfolio-live-progress{position:absolute;left:9.1%;top:18.45%;width:53.2%;height:10.35%;background:#fff;padding:.05% .18%;box-sizing:border-box}
+.portfolio-live-progress p{margin:0;color:#0960c8;font-size:1.6cqw;line-height:1.35;font-weight:600;white-space:nowrap}
+.portfolio-live-progress progress{display:block;appearance:none;width:100%;height:1.38cqw;margin:.55cqw 0 .35cqw;border:0;border-radius:20px;overflow:hidden;background:#cfdeec}
+.portfolio-live-progress progress::-webkit-progress-bar{background:#cfdeec;border-radius:20px}
+.portfolio-live-progress progress::-webkit-progress-value{background:#19ca97;border-radius:20px}
+.portfolio-live-progress progress::-moz-progress-bar{background:#19ca97;border-radius:20px}
+.portfolio-live-progress .portfolio-credit{font-size:1.12cqw;font-weight:600}
+.portfolio-wordmark{position:absolute;top:3.7%;left:84.5%;width:11%;height:7.5%;border-radius:10px}
+.portfolio-tiles{list-style:none;margin:0;padding:0}
+.portfolio-position{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h)}
+.portfolio-tile{display:block;width:100%;height:100%;border-radius:24px;-webkit-tap-highlight-color:transparent}
+.portfolio-navigation{position:absolute;left:61.5%;top:87.2%;width:35%;height:7.2%;display:grid;grid-template-columns:1fr 1.04fr 1.04fr;gap:2.5%}
+.portfolio-navigation a{border-radius:22px}
+.portfolio-board a:focus-visible{outline:4px solid #0754a4;outline-offset:3px;background:rgb(255 255 255 / 12%)}
+.portfolio-viewport:focus-visible{outline:4px solid #0754a4;outline-offset:-4px}
+@media(min-aspect-ratio:1672/941) and (min-width:1001px){.portfolio-viewport{min-height:100svh;display:grid;align-items:center}}
+@media(max-width:700px){.portfolio-viewport{min-height:100svh;display:grid;align-items:center}.portfolio-back{height:5%}}

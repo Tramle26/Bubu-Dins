@@ -1,0 +1,22 @@
+/* Student workspace: readable guides alongside the game. */
+.work-shell a { color: #245c45; text-underline-offset: 3px; }
+.work-shell { max-width: 900px; margin: auto; padding: 0 clamp(18px, 4vw, 40px); }
+.work-nav { display: flex; justify-content: space-between; gap: 20px; padding: 24px 0; border-bottom: 1px solid #245c4530; font-weight: 700; }
+.work-content { padding: 24px 0 40px; line-height: 1.75; overflow-wrap: anywhere; }
+.work-content .pmx-document { padding: 0; }
+.work-content h1 { line-height: 1.15; font-size: clamp(2rem, 6vw, 3rem); }
+.work-content h2 { margin-top: 1.6em; line-height: 1.3; }
+.work-content li { margin-block: .5em; }
+.work-content pre { max-width: 100%; overflow-x: auto; }
+.work-content table { display: block; max-width: 100%; overflow-x: auto; }
+.work-footer { padding: 24px 0; border-top: 1px solid #245c4530; font-size: .9rem; }
+
+.work-content a:not(.pmx-button):not(.pmx-heading-anchor) { text-decoration: underline; text-decoration-thickness: 1px; }
+.work-content a.pmx-button { text-decoration: none; }
+
+
+/* Code uses one surface; inline paths remain quiet and wrap on phones. */
+.work-content :not(pre) > code { background: #e8ecdf; border: 0; border-radius: 4px; padding: .12em .3em; color: var(--bubu-ink); font-size: .9em; overflow-wrap: anywhere; }
+.work-content pre code { background: #edf0e5; color: var(--bubu-ink); border: 0; border-radius: 12px; font-size: 14px; line-height: 1.65; }
+.work-nav a, .work-footer a { text-decoration: none; }
+.work-nav a:hover, .work-footer a:hover { text-decoration: underline; }
