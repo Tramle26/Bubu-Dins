@@ -14,17 +14,16 @@ export const TramInput = z.object({
   scenario: z.number().int().min(0).max(2),
 }).strict()
 
-// This adapter must be explicitly configured for an OpenAI-compatible gateway.
-// A key alone never selects a provider or silently falls back to Gemini.
-export function gatewayConfig(env = process.env) {
-  const key = env.API_GATEWAY_KEY?.trim()
-  const model = env.API_GATEWAY_MODEL?.trim()
-  const endpoint = env.API_GATEWAY_URL?.trim()
-  if (!key || !model || !endpoint || env.API_GATEWAY_FORMAT !== "openai-chat") return null
-  const url = new URL(endpoint)
-  if (url.protocol !== "https:" || url.username || url.password || url.search || url.hash)
-    throw new Error("Configure an HTTPS gateway endpoint without URL credentials.")
-  return { key, model, endpoint: url.href }
+const GEMINI_CHAT = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+
+export function tramConfig(env = process.env) {
+  const key = env.GEMINI_API_KEY?.trim()
+  if (!key) return null
+  return {
+    key,
+    model: env.DR_BOS_CHAT_MODEL?.trim() || env.DR_BOSS_MODEL?.trim() || "gemini-2.5-flash",
+    endpoint: GEMINI_CHAT,
+  }
 }
 
 const result = (body: object, status = 200) => privateResponse(Response.json(body, { status }))
@@ -54,9 +53,8 @@ export const tramChatRoute = route.post("tram-chat", async ctx => {
       input = TramInput.parse(JSON.parse(body + decoder.decode()))
     } finally { await reader.cancel().catch(() => {}) }
   } catch { return result({ error: "Please use a question of 2,000 characters or fewer." }, 400) }
-  let config: ReturnType<typeof gatewayConfig>
-  try { config = gatewayConfig() } catch { config = null }
-  if (!config) return result({ error: "Tram's live chat is not configured. The project owner needs to set the gateway URL, model, API format and API_GATEWAY_KEY. You can still explore the written question choices." }, 503)
+  const config = tramConfig()
+  if (!config) return result({ error: "Tram's live chat is not connected yet. You can still explore the written question choices." }, 503)
   const now = Date.now()
   for (const [actor, timestamps] of recent) if (timestamps.every(t => now - t > 60000)) recent.delete(actor)
   const timestamps = (recent.get(session.actor) ?? []).filter(t => now - t < 60000)
@@ -72,7 +70,7 @@ export const tramChatRoute = route.post("tram-chat", async ctx => {
       signal: AbortSignal.any([ctx.request.signal, AbortSignal.timeout(25000)]),
       headers: { Authorization: `Bearer ${config.key}`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        model: config.model, stream: false, max_tokens: 700,
+        model: config.model, stream: false, max_completion_tokens: 700,
         messages: [
           { role: "system", content: `${profile.body}\nThe current fictional scenario is ${["opening accounts", "student credit card", "spending and repayment"][input.scenario]}.` },
           ...input.history,

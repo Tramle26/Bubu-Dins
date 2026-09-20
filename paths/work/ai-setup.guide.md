@@ -20,8 +20,8 @@ keys in Markdown, browser scripts, screenshots, prompts, or commits.
 
 ## One Gemini key for Dr.Bos
 
-Set `GEMINI_API_KEY` in a private `.env`. Chat, housing Try it, and investing
-review all use that key through Gemini's OpenAI-compatible Chat Completions API.
+Set `GEMINI_API_KEY` in a private `.env`. Chat, housing Try it, investing
+review, and Tram's typed bank questions all use that key through Gemini.
 Create the key in [Google AI Studio](https://aistudio.google.com/apikey).
 
 Optional model overrides:
