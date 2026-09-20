@@ -1,0 +1,6 @@
+Input image 1 is the APPROVED bank building and fixes the town's camera, light, texture, and baseline.
+Create a compact neighborhood hospital/clinic building in the same asset family: warm cream walls,
+muted teal-green roof, a wide central accessible entrance, two rows of simple windows, and one small green heart emblem above the door.
+The heart is a simple pictorial mark, not a logo. Do not use a red cross, an official medical emblem, text, ambulances, people,
+parking surfaces, or a ground tile. Friendly and calm, recognizable without alarming medical detail.
+Elevated near-orthographic three-quarter view, looking down about 30 degrees, showing the front and right side. Warm light from upper left. Rounded, carefully drawn architecture with soft painted shading. No horizon, dramatic perspective, photorealism, or glossy 3D render. One complete building on true transparency; no ground tile or external cast shadow. Place the center of its base at approximately (50%, 88%) of the square canvas. Keep the whole roof and facade inside clear margins. No text, numbers, logos, readable signage, watermark, characters, vehicles, UI controls, or decorative frame.

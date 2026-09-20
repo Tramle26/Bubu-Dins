@@ -1,0 +1,24 @@
+{
+  "scenario_id": "bank-v1",
+  "status": "invented prices; not forecasts or investment recommendations",
+  "budget_cents": 1000000,
+  "labels": {"bobo":"Bobo Incorporated", "cedar":"Cedar Goods", "meadow":"Meadow Basket Fund", "cash":"Cash"},
+  "prices_cents": {
+    "bobo": [10000,12000,7200,9000],
+    "cedar": [10000,9800,9000,10200],
+    "meadow": [10000,10600,9500,10800],
+    "cash": [100,100,100,100]
+  },
+  "events": [
+    {"round":1, "id":"company-surge", "title":"Different businesses, different outcomes", "description":"In this invented round, Bobo rises sharply while Cedar slips."},
+    {"round":2, "id":"broad-setback", "title":"A difficult round", "description":"All three fictional investment buckets decline, by different amounts."},
+    {"round":3, "id":"partial-recovery", "title":"An uneven recovery", "description":"Values recover unevenly; no outcome is a forecast for a real investment."}
+  ],
+  "allocations": [
+    {"id":"default", "allocation_bps":{"bobo":3000,"cedar":2000,"meadow":4000,"cash":1000}},
+    {"id":"reference-not-recommendation", "allocation_bps":{"bobo":2000,"cedar":2000,"meadow":4000,"cash":2000}},
+    {"id":"concentrated-bobo", "allocation_bps":{"bobo":10000,"cedar":0,"meadow":0,"cash":0}},
+    {"id":"all-cash", "allocation_bps":{"bobo":0,"cedar":0,"meadow":0,"cash":10000}},
+    {"id":"meadow-only", "allocation_bps":{"bobo":0,"cedar":0,"meadow":10000,"cash":0}}
+  ]
+}

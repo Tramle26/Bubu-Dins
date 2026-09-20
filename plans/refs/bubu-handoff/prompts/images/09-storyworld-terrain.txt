@@ -1,0 +1,13 @@
+Create an original environment-only terrain plate for an interactive financial-learning town.
+Input image 1 is ONLY a rendering-style and palette reference. Do not copy its bus, lettering, figures, signposts, buildings, or poster layout.
+
+Composition: a wide 5:3 landscape field viewed from an elevated near-orthographic three-quarter overhead angle. No horizon or sky.
+Soft sage-green grass, a few warmly painted bushes and tree groups around the outside edges, subtle cream-colored ground texture,
+and tiny flowers sparingly near the edges. Keep the middle 80% visually quiet and spacious for separately rendered buildings and SVG roads.
+Reserve six broad clear grass areas near these canvas centers: (14%,26%), (50%,23%), (84%,26%), (15%,71%), (50%,58%), (84%,71%).
+Do not draw visible place markers in those areas. There must be no central obstacle, river crossing, cliff, or texture that dictates navigation.
+The lower edge may have gentle foliage framing, but it must not cover the interior placement areas.
+
+Use the warm, soft-textured 2D illustration language of the supplied reference: rounded silhouettes, subtle gouache/paper grain within shapes, warm cream, forest and sage green, golden yellow, and terracotta. Readable game art for a college-student learning experience, not glossy 3D, photorealism, neon clip-art, or a nursery poster.
+This is one opaque background image, not a game screenshot. No roads or paths, no buildings, no vehicles, no people or mascots,
+no labels, numbers, interface panels, buttons, coins, border, watermark, or checkerboard. Subtle composition, generous negative space.

@@ -1,0 +1,84 @@
+{
+  "version": "questions-v1",
+  "status": "proposed authored questions; require Mark/Tram review",
+  "questions": [
+    {
+      "id": "housing-costs-1",
+      "criterion": "H1.costs",
+      "question": "Beyond principal and interest, which two costs would you include when comparing renting and buying? How is a down payment different from a fee?",
+      "hint": "Separate costs paid once, costs paid repeatedly, and cash that becomes an asset.",
+      "transferQuestionId": "housing-costs-transfer"
+    },
+    {
+      "id": "housing-costs-transfer",
+      "criterion": "H1.costs",
+      "question": "Two homes have the same loan payment, but one needs more maintenance and has higher property taxes. Is the monthly housing cost the same? Explain.",
+      "hint": "Consider what leaves the household budget outside the loan payment."
+    },
+    {
+      "id": "housing-term-1",
+      "criterion": "H2.term",
+      "question": "For the same principal and interest rate, how would a 15-year loan differ from a 30-year loan in monthly payment and interest over the entire loan?",
+      "hint": "Think about the time available to repay the principal.",
+      "transferQuestionId": "housing-term-transfer"
+    },
+    {
+      "id": "housing-term-transfer",
+      "criterion": "H2.term",
+      "question": "A fictional buyer chooses the lower monthly payment to preserve cash. What possible trade-off should they acknowledge over the full loan term?",
+      "hint": "A lower monthly commitment and a lower total financing cost are different claims."
+    },
+    {
+      "id": "housing-context-1",
+      "criterion": "H3.context",
+      "question": "How might expecting to move in two years instead of seven change the housing decision? Name one assumption or liquidity need that matters.",
+      "hint": "Look at transaction costs and money available for other needs.",
+      "transferQuestionId": "housing-context-transfer"
+    },
+    {
+      "id": "housing-context-transfer",
+      "criterion": "H3.context",
+      "question": "Your preferred option has the higher ending value in this model. What would you still need to consider before calling it preferable for the fictional learner?",
+      "hint": "The model is not the whole situation."
+    },
+    {
+      "id": "investing-diversification-1",
+      "criterion": "I1.diversification",
+      "question": "What changes when an allocation moves from one company to several different businesses? Does that prevent every loss?",
+      "hint": "Distinguish one-company risk from risks that affect many investments.",
+      "transferQuestionId": "investing-diversification-transfer"
+    },
+    {
+      "id": "investing-diversification-transfer",
+      "criterion": "I1.diversification",
+      "question": "All the investment buckets fell in the second fictional round. Does that prove spreading exposure was useless? Explain.",
+      "hint": "Risk reduction is different from a guarantee."
+    },
+    {
+      "id": "investing-goal-1",
+      "criterion": "I2.goal",
+      "question": "For a fictional goal that needs money soon, how would the time horizon and willingness or ability to absorb a decline affect your allocation?",
+      "hint": "Relate the choice to when the money is needed.",
+      "transferQuestionId": "investing-goal-transfer"
+    },
+    {
+      "id": "investing-goal-transfer",
+      "criterion": "I2.goal",
+      "question": "The fictional learner now has a much longer horizon but still dislikes large declines. What changed, and what did not?",
+      "hint": "The timeline and the tolerance for loss are separate considerations."
+    },
+    {
+      "id": "investing-uncertainty-1",
+      "criterion": "I3.uncertainty",
+      "question": "An allocation earned the most money in this one fictional run. Is that enough to call it the best original decision? Why?",
+      "hint": "Distinguish what was knowable when choosing from what happened later.",
+      "transferQuestionId": "investing-uncertainty-transfer"
+    },
+    {
+      "id": "investing-uncertainty-transfer",
+      "criterion": "I3.uncertainty",
+      "question": "A thoughtful allocation lost value. What evidence would help judge the reasoning instead of judging only the result?",
+      "hint": "Consider the goal, constraints, downside, and information available before the outcome."
+    }
+  ]
+}

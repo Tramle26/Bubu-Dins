@@ -1,0 +1,75 @@
+{
+  "status": "original supplied references, unchanged",
+  "images": [
+    {
+      "path": "references/art-ref-bubu-mascot-1.png",
+      "originalFilename": "art-ref-bubu-mascot-1.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "2eeb61f004b3f23cfc2e681233612deed3c3f18110d677c0ace98482e0ce819a",
+      "usage": "user-supplied authoring reference; human approval/rights review required for runtime derivatives"
+    },
+    {
+      "path": "references/art-ref-bubu-mascot-2.png",
+      "originalFilename": "art-ref-bubu-mascot-2.png",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "c3e6746da5acdbb7c8a98dbea45a73d106fd1caa583544e26233f32843050b66",
+      "usage": "user-supplied authoring reference; human approval/rights review required for runtime derivatives"
+    },
+    {
+      "path": "references/art-ref-bus-map.png",
+      "originalFilename": "art-ref-bus-map.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f2c7386f23c38cba5c54dc96978e6fc91e2dcd780f416886f65a086cb4ba0507",
+      "usage": "user-supplied authoring reference; human approval/rights review required for runtime derivatives"
+    },
+    {
+      "path": "references/art-ref-professor.png",
+      "originalFilename": "art-ref-professor.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "66d8d7ff89c96af8fa55807568c4220683c994c8f47fa825e5774f4876f493f8",
+      "usage": "user-supplied authoring reference; human approval/rights review required for runtime derivatives"
+    },
+    {
+      "path": "references/art-reference-forest-path.png",
+      "originalFilename": "art-reference-forest-path.png",
+      "dimensions": [
+        520,
+        1000
+      ],
+      "sha256": "0a6507c3334e4f07fe4ce16fca51578f874e6d9486e074f834c7cbe6d046f81c",
+      "usage": "composition reference only; do not edit or deploy"
+    },
+    {
+      "path": "references/drawings-screens-1.png",
+      "originalFilename": "drawings-screens-1.png",
+      "dimensions": [
+        598,
+        846
+      ],
+      "sha256": "959d874b4c349e5a3bfc995cf08c35bd710a49d141e291ffbc59fa8ab1066898",
+      "usage": "user-supplied authoring reference; human approval/rights review required for runtime derivatives"
+    },
+    {
+      "path": "references/drawings-screens-2.png",
+      "originalFilename": "drawings-screens-2.png",
+      "dimensions": [
+        598,
+        846
+      ],
+      "sha256": "68fae8b49fb0a12b2b3efb6f047df039743079d846e08287663dc6837c2c5d70",
+      "usage": "user-supplied authoring reference; human approval/rights review required for runtime derivatives"
+    }
+  ]
+}

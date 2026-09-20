@@ -1,0 +1,396 @@
+{
+  "schemaVersion": "bubu-generation-plan-v1",
+  "prepared": "2026-09-15",
+  "status": "prompts only; do not claim generation or approval",
+  "referencePathsRelativeTo": "handoff root",
+  "execution": "Generate one asset at a time. References under assets/generated must exist and be approved before dependent jobs. Attach actual images, not filenames. Live generation incurs charges; obtain batch approval before bulk execution.",
+  "tasks": [
+    {
+      "id": "boo-boo-master",
+      "prompt": "prompts/images/01-boo-boo-master.txt",
+      "references": [
+        "references/art-ref-bubu-mascot-1.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/boo-boo-master.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "dr-boss-master",
+      "prompt": "prompts/images/02-dr-boss-master.txt",
+      "references": [
+        "references/art-ref-professor.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/dr-boss-master.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "boo-boo-encourage",
+      "prompt": "prompts/images/03-boo-boo-encourage.txt",
+      "references": [
+        "assets/generated/boo-boo-master.png"
+      ],
+      "dependsOn": [
+        "boo-boo-master"
+      ],
+      "output": "assets/generated/boo-boo-encourage.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "boo-boo-celebrate",
+      "prompt": "prompts/images/04-boo-boo-celebrate.txt",
+      "references": [
+        "assets/generated/boo-boo-master.png"
+      ],
+      "dependsOn": [
+        "boo-boo-master"
+      ],
+      "output": "assets/generated/boo-boo-celebrate.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "boo-boo-thinking",
+      "prompt": "prompts/images/05-boo-boo-thinking.txt",
+      "references": [
+        "assets/generated/boo-boo-master.png"
+      ],
+      "dependsOn": [
+        "boo-boo-master"
+      ],
+      "output": "assets/generated/boo-boo-thinking.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "dr-boss-question",
+      "prompt": "prompts/images/06-dr-boss-question.txt",
+      "references": [
+        "assets/generated/dr-boss-master.png"
+      ],
+      "dependsOn": [
+        "dr-boss-master"
+      ],
+      "output": "assets/generated/dr-boss-question.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "dr-boss-explain",
+      "prompt": "prompts/images/07-dr-boss-explain.txt",
+      "references": [
+        "assets/generated/dr-boss-master.png"
+      ],
+      "dependsOn": [
+        "dr-boss-master"
+      ],
+      "output": "assets/generated/dr-boss-explain.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "dr-boss-approve",
+      "prompt": "prompts/images/08-dr-boss-approve.txt",
+      "references": [
+        "assets/generated/dr-boss-master.png"
+      ],
+      "dependsOn": [
+        "dr-boss-master"
+      ],
+      "output": "assets/generated/dr-boss-approve.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "storyworld-terrain",
+      "prompt": "prompts/images/09-storyworld-terrain.txt",
+      "references": [
+        "references/art-ref-bus-map.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/storyworld-terrain.png",
+      "settings": {
+        "model": "gpt-image-2.5-flare",
+        "quality": "high",
+        "size": "1600x960",
+        "background": "opaque",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "building-bank",
+      "prompt": "prompts/images/10-building-bank.txt",
+      "references": [
+        "references/art-ref-bus-map.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/building-bank.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "building-house",
+      "prompt": "prompts/images/11-building-house.txt",
+      "references": [
+        "assets/generated/building-bank.png"
+      ],
+      "dependsOn": [
+        "building-bank"
+      ],
+      "output": "assets/generated/building-house.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "building-college",
+      "prompt": "prompts/images/12-building-college.txt",
+      "references": [
+        "assets/generated/building-bank.png"
+      ],
+      "dependsOn": [
+        "building-bank"
+      ],
+      "output": "assets/generated/building-college.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "building-supermarket",
+      "prompt": "prompts/images/13-building-supermarket.txt",
+      "references": [
+        "assets/generated/building-bank.png"
+      ],
+      "dependsOn": [
+        "building-bank"
+      ],
+      "output": "assets/generated/building-supermarket.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "building-hospital",
+      "prompt": "prompts/images/14-building-hospital.txt",
+      "references": [
+        "assets/generated/building-bank.png"
+      ],
+      "dependsOn": [
+        "building-bank"
+      ],
+      "output": "assets/generated/building-hospital.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "building-mall",
+      "prompt": "prompts/images/15-building-mall.txt",
+      "references": [
+        "assets/generated/building-bank.png"
+      ],
+      "dependsOn": [
+        "building-bank"
+      ],
+      "output": "assets/generated/building-mall.png",
+      "settings": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "bubu-bus",
+      "prompt": "prompts/images/16-bubu-bus.txt",
+      "references": [
+        "references/art-ref-bus-map.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/bubu-bus.png",
+      "settings": {
+        "model": "gpt-image-2.5-flare",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "learning-coin",
+      "prompt": "prompts/images/17-learning-coin.txt",
+      "references": [
+        "references/art-ref-bubu-mascot-1.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/learning-coin.png",
+      "settings": {
+        "model": "gpt-image-2.5-flare",
+        "quality": "high",
+        "size": "1024x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "lesson-grove",
+      "prompt": "prompts/images/18-lesson-grove.txt",
+      "references": [
+        "references/art-ref-bus-map.png"
+      ],
+      "dependsOn": [],
+      "output": "assets/generated/lesson-grove.png",
+      "settings": {
+        "model": "gpt-image-2.5-flare",
+        "quality": "high",
+        "size": "1600x960",
+        "background": "opaque",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "housing-vignette",
+      "prompt": "prompts/images/19-housing-vignette.txt",
+      "references": [
+        "assets/generated/building-house.png"
+      ],
+      "dependsOn": [
+        "building-house"
+      ],
+      "output": "assets/generated/housing-vignette.png",
+      "settings": {
+        "model": "gpt-image-2.5-flare",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    },
+    {
+      "id": "investing-vignette",
+      "prompt": "prompts/images/20-investing-vignette.txt",
+      "references": [
+        "assets/generated/boo-boo-master.png",
+        "references/art-ref-bus-map.png"
+      ],
+      "dependsOn": [
+        "boo-boo-master"
+      ],
+      "output": "assets/generated/investing-vignette.png",
+      "settings": {
+        "model": "gpt-image-2.5-flare",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "output_format": "png",
+        "n": 1
+      },
+      "status": "not_generated"
+    }
+  ]
+}

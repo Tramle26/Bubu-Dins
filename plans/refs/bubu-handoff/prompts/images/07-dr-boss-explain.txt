@@ -1,0 +1,6 @@
+Input image 1 is the APPROVED Dr.Bos master. Edit that same character; do not redesign or replace him. Preserve rectangular green glasses, cream muzzle and horns, hair tuft and small goatee, cream academic jacket, green vest, striped tie, exact face proportions, drawing texture, canvas size, body scale, and supporting-hoof baseline.
+Change only the near arm and facial expression. Dr.Bos gently points with an open forehoof toward empty space on the viewer's left,
+as if indicating a chart rendered elsewhere in the app. Keep the other forehoof holding the small closed book. Calm explanatory smile;
+no oversized pointing hand, no aggressive stance, no pointer stick crossing the face. Do not draw the chart, axes, letters, numbers,
+a board, a speech bubble, or a background. Keep identity, body scale, camera, and hoof baseline unchanged.
+Output one isolated full-body character on a genuinely transparent background. Square canvas. Keep all horns, ears, hooves, and tail fully inside the frame with clear padding. Center the character; place the bottom of the supporting hooves at about 88% of image height and preserve comfortable headroom. No caption, letter, logo, watermark, border, scenery, floor, checkerboard, or cast shadow. Do not produce a character sheet or multiple versions in one image. Preserve clean alpha around the silhouette.

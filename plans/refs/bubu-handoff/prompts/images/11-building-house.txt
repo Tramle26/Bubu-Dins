@@ -1,0 +1,7 @@
+Input image 1 is the APPROVED bank building and fixes the camera, rendering, lighting, canvas, and footprint baseline.
+Create a different building in that same asset family: a welcoming two-story home with a terracotta pitched roof,
+warm cream walls, a forest-green front door, simple windows, and a small front porch. One compact attached shrub is acceptable,
+but no yard tile, fence rectangle, large garden, road, or unrelated object. Keep it fully isolated.
+Do not copy the bank's columns or institutional facade. Match its subtle paint grain, edge softness, upper-left light,
+three-quarter angle, and front/right-side orientation so the two buildings can sit together on one map.
+Elevated near-orthographic three-quarter view, looking down about 30 degrees, showing the front and right side. Warm light from upper left. Rounded, carefully drawn architecture with soft painted shading. No horizon, dramatic perspective, photorealism, or glossy 3D render. One complete building on true transparency; no ground tile or external cast shadow. Place the center of its base at approximately (50%, 88%) of the square canvas. Keep the whole roof and facade inside clear margins. No text, numbers, logos, readable signage, watermark, characters, vehicles, UI controls, or decorative frame.

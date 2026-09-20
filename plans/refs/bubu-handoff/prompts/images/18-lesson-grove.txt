@@ -1,0 +1,13 @@
+Create an original quiet background plate for a three-stop illustrated learning journey.
+Input image 1 supplies only the warm 2D painted environment style and palette. Do not reproduce its bus, characters,
+lettering, buildings, signs, or poster composition.
+
+Wide 5:3 landscape frame. Elevated near-orthographic view of a small grassy grove. A few rounded trees and bushes frame
+only the far corners and outer edges, with warm cream sunlight and a soft sage-green grassy center. Leave a broad uninterrupted
+quiet band running from lower-left interior through the center to upper-right interior. The application will draw its own curved
+SVG road and three interactive stops there. Therefore do NOT paint a road, path, stepping stones, platforms, arrows, stop markers,
+coins, or shadows indicating where stops should go. Gentle tiny flowers near the edges are enough detail.
+
+Use the warm, soft-textured 2D illustration language of the supplied reference: rounded silhouettes, subtle gouache/paper grain within shapes, warm cream, forest and sage green, golden yellow, and terracotta. Readable game art for a college-student learning experience, not glossy 3D, photorealism, neon clip-art, or a nursery poster.
+One opaque scenery plate. No horizon, sky, prominent obstacle, buildings, text, interface, characters, border, watermark, or checkerboard.
+The background must stay visually quieter than the future lesson labels.

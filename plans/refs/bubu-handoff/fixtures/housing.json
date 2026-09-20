@@ -1,0 +1,35 @@
+{
+  "scenario_id": "house-v1",
+  "status": "fictional teaching assumptions, not current market data",
+  "config": {
+    "home_price_cents": 24000000,
+    "starting_savings_cents": 7200000,
+    "monthly_available_cents": 300000,
+    "annual_interest_bps": 600,
+    "purchase_cost_bps": 300,
+    "sale_cost_bps": 600,
+    "annual_home_growth_bps": 200,
+    "annual_property_tax_bps": 120,
+    "annual_home_insurance_cents": 120000,
+    "annual_maintenance_bps": 100,
+    "annual_fixture_mortgage_insurance_bps": 50,
+    "initial_rent_cents": 175000,
+    "annual_rent_growth_bps": 200,
+    "monthly_renters_insurance_cents": 2000,
+    "rental_deposit_cents": 175000,
+    "rental_move_in_fee_cents": 30000
+  },
+  "cases": [
+    {"id":"default-20-30-7", "down_payment_bps":2000, "term_months":360, "stay_months":84},
+    {"id":"short-stay-20-30-2", "down_payment_bps":2000, "term_months":360, "stay_months":24},
+    {"id":"short-loan-20-15-7", "down_payment_bps":2000, "term_months":180, "stay_months":84},
+    {"id":"low-down-10-30-7", "down_payment_bps":1000, "term_months":360, "stay_months":84},
+    {"id":"low-down-short-loan-10-15-2", "down_payment_bps":1000, "term_months":180, "stay_months":24},
+    {"id":"rent-anniversary-12", "down_payment_bps":2000, "term_months":360, "stay_months":12},
+    {"id":"rent-anniversary-13", "down_payment_bps":2000, "term_months":360, "stay_months":13},
+    {"id":"budget-shortfall", "down_payment_bps":2000, "term_months":180, "stay_months":84,
+      "overrides":{"monthly_available_cents":100000}},
+    {"id":"zero-rate", "down_payment_bps":2000, "term_months":360, "stay_months":24,
+      "overrides":{"annual_interest_bps":0}}
+  ]
+}

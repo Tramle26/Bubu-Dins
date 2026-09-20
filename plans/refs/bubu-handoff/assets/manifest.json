@@ -1,0 +1,376 @@
+{
+  "schemaVersion": "bubu-assets-v1",
+  "status": "planned; no generated assets supplied",
+  "referenceRights": "User-provided authoring references; not automatically licensed for runtime redistribution",
+  "scene": {
+    "viewBox": [
+      0,
+      0,
+      1200,
+      720
+    ],
+    "fit": "contain"
+  },
+  "assets": [
+    {
+      "id": "boo-boo-master",
+      "title": "Bubu identity master",
+      "status": "planned",
+      "category": "character",
+      "priority": "core",
+      "output": "assets/generated/boo-boo-master.png",
+      "runtimePath": "paths/assets/bubu/boo-boo-master.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/01-boo-boo-master.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "dr-boss-master",
+      "title": "Dr.Bos identity master",
+      "status": "planned",
+      "category": "character",
+      "priority": "core",
+      "output": "assets/generated/dr-boss-master.png",
+      "runtimePath": "paths/assets/bubu/dr-boss-master.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/02-dr-boss-master.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "boo-boo-encourage",
+      "title": "Bubu with blank encouragement sign",
+      "status": "planned",
+      "category": "character",
+      "priority": "core",
+      "output": "assets/generated/boo-boo-encourage.png",
+      "runtimePath": "paths/assets/bubu/boo-boo-encourage.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/03-boo-boo-encourage.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "boo-boo-celebrate",
+      "title": "Bubu celebration pose",
+      "status": "planned",
+      "category": "character",
+      "priority": "polish",
+      "output": "assets/generated/boo-boo-celebrate.png",
+      "runtimePath": "paths/assets/bubu/boo-boo-celebrate.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/04-boo-boo-celebrate.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "boo-boo-thinking",
+      "title": "Bubu patient companion pose",
+      "status": "planned",
+      "category": "character",
+      "priority": "polish",
+      "output": "assets/generated/boo-boo-thinking.png",
+      "runtimePath": "paths/assets/bubu/boo-boo-thinking.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/05-boo-boo-thinking.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "dr-boss-question",
+      "title": "Dr.Bos asking one question",
+      "status": "planned",
+      "category": "character",
+      "priority": "core",
+      "output": "assets/generated/dr-boss-question.png",
+      "runtimePath": "paths/assets/bubu/dr-boss-question.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/06-dr-boss-question.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "dr-boss-explain",
+      "title": "Dr.Bos contextual explanation pose",
+      "status": "planned",
+      "category": "character",
+      "priority": "core",
+      "output": "assets/generated/dr-boss-explain.png",
+      "runtimePath": "paths/assets/bubu/dr-boss-explain.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/07-dr-boss-explain.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "dr-boss-approve",
+      "title": "Dr.Bos acknowledges demonstrated understanding",
+      "status": "planned",
+      "category": "character",
+      "priority": "polish",
+      "output": "assets/generated/dr-boss-approve.png",
+      "runtimePath": "paths/assets/bubu/dr-boss-approve.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/08-dr-boss-approve.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "storyworld-terrain",
+      "title": "Storyworld terrain plate",
+      "status": "planned",
+      "category": "background",
+      "priority": "core",
+      "output": "assets/generated/storyworld-terrain.png",
+      "runtimePath": "paths/assets/bubu/storyworld-terrain.png",
+      "size": "1600x960",
+      "background": "opaque",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "prompt": "prompts/images/09-storyworld-terrain.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "building-bank",
+      "title": "Bank building master",
+      "status": "planned",
+      "category": "building",
+      "priority": "core",
+      "output": "assets/generated/building-bank.png",
+      "runtimePath": "paths/assets/bubu/building-bank.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/10-building-bank.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "building-house",
+      "title": "House destination",
+      "status": "planned",
+      "category": "building",
+      "priority": "core",
+      "output": "assets/generated/building-house.png",
+      "runtimePath": "paths/assets/bubu/building-house.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/11-building-house.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "building-college",
+      "title": "College lessons destination",
+      "status": "planned",
+      "category": "building",
+      "priority": "core",
+      "output": "assets/generated/building-college.png",
+      "runtimePath": "paths/assets/bubu/building-college.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/12-building-college.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "building-supermarket",
+      "title": "Supermarket preview destination",
+      "status": "planned",
+      "category": "building",
+      "priority": "polish",
+      "output": "assets/generated/building-supermarket.png",
+      "runtimePath": "paths/assets/bubu/building-supermarket.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/13-building-supermarket.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "building-hospital",
+      "title": "Hospital preview destination",
+      "status": "planned",
+      "category": "building",
+      "priority": "polish",
+      "output": "assets/generated/building-hospital.png",
+      "runtimePath": "paths/assets/bubu/building-hospital.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/14-building-hospital.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "building-mall",
+      "title": "Shopping mall preview destination",
+      "status": "planned",
+      "category": "building",
+      "priority": "polish",
+      "output": "assets/generated/building-mall.png",
+      "runtimePath": "paths/assets/bubu/building-mall.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/15-building-mall.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "bubu-bus",
+      "title": "Bubu journey bus",
+      "status": "planned",
+      "category": "vehicle",
+      "priority": "polish",
+      "output": "assets/generated/bubu-bus.png",
+      "runtimePath": "paths/assets/bubu/bubu-bus.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.84
+      ],
+      "prompt": "prompts/images/16-bubu-bus.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "learning-coin",
+      "title": "Leaf learning coin",
+      "status": "planned",
+      "category": "prop",
+      "priority": "core",
+      "output": "assets/generated/learning-coin.png",
+      "runtimePath": "paths/assets/bubu/learning-coin.png",
+      "size": "1024x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "prompt": "prompts/images/17-learning-coin.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "lesson-grove",
+      "title": "Quiet lesson-journey grove",
+      "status": "planned",
+      "category": "background",
+      "priority": "core",
+      "output": "assets/generated/lesson-grove.png",
+      "runtimePath": "paths/assets/bubu/lesson-grove.png",
+      "size": "1600x960",
+      "background": "opaque",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "prompt": "prompts/images/18-lesson-grove.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "housing-vignette",
+      "title": "Optional housing comparison decoration",
+      "status": "planned",
+      "category": "vignette",
+      "priority": "optional",
+      "output": "assets/generated/housing-vignette.png",
+      "runtimePath": "paths/assets/bubu/housing-vignette.png",
+      "size": "1536x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/19-housing-vignette.txt",
+      "approvalRequired": true,
+      "provenance": null
+    },
+    {
+      "id": "investing-vignette",
+      "title": "Optional investing scene decoration",
+      "status": "planned",
+      "category": "vignette",
+      "priority": "optional",
+      "output": "assets/generated/investing-vignette.png",
+      "runtimePath": "paths/assets/bubu/investing-vignette.png",
+      "size": "1536x1024",
+      "background": "transparent",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "prompt": "prompts/images/20-investing-vignette.txt",
+      "approvalRequired": true,
+      "provenance": null
+    }
+  ]
+}

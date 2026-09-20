@@ -1,0 +1,7 @@
+Input image 1 is the APPROVED bank building and fixes camera, material rendering, lighting, and baseline.
+Create a compact college building in the same illustrated town family: warm cream stone, a terracotta/green roof,
+a modest central square tower, a welcoming arched entrance, and two short symmetrical wings.
+Use an abstract unnumbered circular clock face on the tower if needed for recognition; no legible numerals, crests, banners, or flags.
+It should look like a small friendly campus building, not a cathedral, castle, or enormous monumental university.
+Preserve the bank reference's camera showing front and right side, light direction, texture, and clean isolated silhouette.
+Elevated near-orthographic three-quarter view, looking down about 30 degrees, showing the front and right side. Warm light from upper left. Rounded, carefully drawn architecture with soft painted shading. No horizon, dramatic perspective, photorealism, or glossy 3D render. One complete building on true transparency; no ground tile or external cast shadow. Place the center of its base at approximately (50%, 88%) of the square canvas. Keep the whole roof and facade inside clear margins. No text, numbers, logos, readable signage, watermark, characters, vehicles, UI controls, or decorative frame.

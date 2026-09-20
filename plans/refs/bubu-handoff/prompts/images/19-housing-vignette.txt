@@ -1,0 +1,10 @@
+Create a small decorative housing vignette in the Bubu asset family.
+Input image 1 is the approved House building and controls the architecture, paint texture, palette, and lighting.
+Show that complete friendly cream-and-terracotta house beside a compact cream apartment building with muted green trim,
+with clear separation between the two buildings. Equal visual importance: neither option is larger, brighter, triumphant,
+broken, gloomy, or marked as a winner. No people, money, keys, ownership badges, arrows, comparison labels, values, or charts.
+
+Use the same elevated three-quarter view, front and right sides visible, warm upper-left lighting, and soft textured 2D rendering.
+Place both complete buildings on transparent space with a consistent baseline, not on a ground tile. Do not create a full UI screen.
+One landscape composition with generous padding, true transparent background, no outside cast shadows, no lettering, no logos,
+no border, no watermark, and no checkerboard. This is decoration only; all financial information will be application text and charts.
