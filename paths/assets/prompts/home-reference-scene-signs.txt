@@ -1,0 +1,19 @@
+Use case: precise-object-edit
+Asset type: Bubu homepage background painting
+Input image: home-reference-scene.png is the edit target.
+
+Paint the building names directly into the existing illustration. Add the exact
+word “BANK” to the cream bank building on the far left, centered naturally on
+its front pediment or facade. Add the exact word “CAFÉ” to the small cream cafe
+with the red-and-white striped awning at center-right, centered naturally on the
+blank facade above the awning. The lettering should look like hand-painted
+environmental signage that belongs to the existing warm children's storybook
+gouache artwork, remain legible at webpage size, and follow each building's
+perspective.
+
+Text (verbatim): “BANK” and “CAFÉ” (including the acute accent on É).
+
+Change only these two building signs. Preserve the exact 1672 × 941 composition,
+crop, Bubu character, buildings, trees, street, sky, colors, lighting, brush
+texture, and every other detail. Do not move, redraw, add, or remove any object.
+No UI, buttons, charts, extra text, logos, or watermark.

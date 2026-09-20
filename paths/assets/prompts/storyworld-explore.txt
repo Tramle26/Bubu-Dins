@@ -1,0 +1,7 @@
+Built-in imagegen, 2026-09-19. References: user Storyworld mockup and paths/assets/storyworld-kingdom.png.
+
+Use case: stylized-concept. Wide reusable Storyworld map plate for Bubu.
+
+Match the supplied mockup composition: winding neighborhood roads, grassy lawns, rounded trees, distant city skyline, pale blue sky. Upper left cream cottage with terracotta roof and picket fence. Upper center cream bank with columns and a simple gold coin emblem. Upper right light-blue hospital with a red cross and a small ambulance. Middle left glass shopping mall. Center orange-brick college with clock tower and flag. Lower left cafe with terracotta roof, striped awning, and outdoor tables. Lower center yellow bus at a shelter. Lower right cream supermarket with a green awning and carts. River and arched bridge at the far right.
+
+Leave quiet lawn immediately below each building for separately coded HTML labels. Landscape 16:9. Scenery only: no people, animals, mascots, readable words, numbers, interface, title text, pills, pins, badges, logos, charts, or watermark. The red cross and gold coin are simple painted symbols, not text.

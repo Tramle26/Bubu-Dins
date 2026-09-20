@@ -1,0 +1,5 @@
+Generated with the built-in imagegen tool on 2026-09-17.
+Identity reference: plans/refs/art-ref-professor.png.
+Style reference: user-provided Bubu character sheet.
+
+Create one square chat avatar portrait of Dr.Bos, the adult friendly bull professor in reference image 1. Reference 1 is canonical identity: orange brown bull, rectangular forest green glasses, small dark brown goatee, cream academic jacket, green sweater vest and striped tie. Reference 2 is only supporting soft textured gouache storybook style/palette, do not use its youthful hoodie character. Head and shoulders centered large, full horns and ears visible with comfortable padding, warm approachable smile facing viewer. Plain solid pale cream background #fff8e5, intentionally opaque portrait suitable for rounded chat avatar. No text, letters, labels, logo, watermark, UI, charts or props. Single character only.

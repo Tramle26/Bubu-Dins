@@ -1,0 +1,6 @@
+Use case: illustration-story
+Asset: Budget topic thumbnail, opaque square PNG.
+A cute glossy pink piggy bank facing right, with a gold coin dropping into the
+slot. Soft textured gouache. Quiet pale mint backdrop. Readable at 56px. No
+people, lettering, charts, UI, logos, or watermarks. Keep the piggy bank large
+in the frame with modest padding.

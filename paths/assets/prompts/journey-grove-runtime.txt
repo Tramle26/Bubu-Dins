@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: wide reusable background plate for a learning-game journey screen
+
+Using the supplied illustrated Bubu bus map only for palette and rendering style,
+create a clean 16:9 campus-and-forest valley. A pale winding footpath crosses
+left to right with three broad stopping areas. Include a small pond at lower
+left, distant warm campus buildings, trees, flowers, gentle hills, and a pale
+blue sky. Keep quiet open areas through the middle and lower right for HTML UI.
+
+Use soft textured 2D gouache/storybook game illustration with forest and sage
+greens, warm cream, golden sunlight, and pale blue. Scenery only: no characters,
+bus, foreground buildings, buttons, cards, interface, markers, labels, words,
+logos, sponsor marks, or watermark.

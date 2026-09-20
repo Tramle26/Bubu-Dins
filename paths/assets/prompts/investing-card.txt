@@ -1,0 +1,10 @@
+Use case: illustration-story
+Asset: Bubu investing topic card, opaque landscape 3:2 PNG.
+References: paths/assets/boo-boo.png for character identity; journey-grove.png for style.
+Same youthful orange-brown bull, round forest-green glasses, cream hoodie, green
+backpack. Bubu sits curiously at a wooden desk beside an open laptop and small
+potted plant, leafy pale sage backdrop. Laptop blank muted green; no text or charts.
+Soft textured gouache, warm cream, terracotta and forest greens. Compact thumbnail
+composition, complete head/horns with breathing room. No coins, growth arrows,
+graphs, currency, wealth symbols, logos, lettering, UI, frame or watermark.
+Investing is thoughtful learning, not a promise of returns.

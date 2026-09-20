@@ -1,0 +1,3 @@
+Reference: plans/screen-prototypes/03-storyworld.png and plans/refs/screens-mockup.png.
+Create a 1536x1024 3:2 elevated storybook gouache town map. Cream, forest green, sage and ochre. Winding streets, trees, river and bridge, small yellow bus on bottom road. House at 25%,35%; bank at 53%,25%; hospital at 80%,32%; college at 52%,53%; mall at 25%,70%; supermarket at 78%,70%. Leave quiet ground below buildings for HTML labels. No text, labels, controls, pins, badges, logos or character panels. Keep the entire terrain uncropped in the app. Labels and interactive links belong in HTML.
+Generated 2026-09-16 using the built-in image tool with the prototype as reference.

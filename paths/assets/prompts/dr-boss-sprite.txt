@@ -1,0 +1,11 @@
+Use the original Professor character sheet as identity/style reference only.
+Generate ONE Dr.Bos professor sprite, not a sheet. Orange-brown bull, rectangular
+forest-green glasses, small dark goatee, cream horns/muzzle, dark tuft, cream academic
+jacket, green sweater vest, white shirt, green-and-gold striped tie. Calm adult mentor.
+Neutral three-quarter front pose holding an unlettered dark-green book, other hoof
+open in a gentle explaining gesture. Warm textured gouache 2D illustration.
+Square 1024×1024 RGBA PNG; center x=50%, feet baseline y=88%; all extremities inside
+with padding. Genuine transparent alpha, clean edges. No painted checkerboard,
+backdrop, glow, shadow, ground, text, logo, watermark, frame, multiple poses or medical
+accessories. Keep identity distinct from youthful hoodie-wearing Bubu.
+QA: confirm alpha exists and inspect on both light and dark before accepting.

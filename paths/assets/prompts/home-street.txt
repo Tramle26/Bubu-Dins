@@ -1,0 +1,12 @@
+Use case: stylized-concept
+Asset type: wide reusable background plate for the Bubu homepage
+
+Using the supplied street mockup for composition and the grove painting for palette
+and rendering style, create a clean 16:9 town street. Pale stone pavement with a
+zebra crosswalk in the foreground center. Cream bank with columns and a gold coin
+emblem on the left. Small cafe with a coral-and-white striped awning on the right.
+Blue bus-stop post at the far right. Trees, planters, and a pale blue sky.
+
+Keep the center of the street and the lower-middle crosswalk open for an HTML
+character sprite. Scenery only: no people, animals, mascots, buttons, cards,
+navigation, interface, readable words, numbers, logos, or watermark.

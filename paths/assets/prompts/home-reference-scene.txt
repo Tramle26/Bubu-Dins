@@ -1,0 +1,1 @@
+Edited from the supplied homepage design. Preserve exact 16:9 town composition, palette and central walking Bubu. Remove the top navigation, headline, buttons and right learning panel; inpaint the town behind them. No UI, charts, lettering or controls. Keep decorative Bubu as part of the scene. HTML renders all interactive elements and building labels.

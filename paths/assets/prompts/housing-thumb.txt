@@ -1,0 +1,6 @@
+Use case: illustration-story
+Asset: Housing topic thumbnail, opaque square PNG.
+A single cute cream cottage with a terracotta roof, forest-green door, flower
+boxes, and a tiny garden. Soft textured gouache, sunny cream and sage. Quiet
+pale mint backdrop. Readable at 56px. No people, lettering, charts, UI, logos,
+or watermarks. Keep the house large in the frame with modest padding.

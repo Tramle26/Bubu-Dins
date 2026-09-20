@@ -1,0 +1,10 @@
+Use case: illustration-story
+Asset: Bubu housing topic card, opaque landscape 3:2 PNG.
+Reference: paths/assets/journey-grove.png, painting style only.
+Friendly small cream house with terracotta roof beside a compact cream apartment
+building with green trim, equally welcoming and similar visual prominence, garden
+and trees. Elevated three-quarter view. Soft textured gouache, sunny cream,
+terracotta, forest/sage greens. Readable at thumbnail size; buildings fit comfortably
+with breathing room. Quiet pale sage backdrop, warm late-morning light.
+No characters, money, keys, arrows, graphs, lettering, logos, UI, frame or watermark.
+Do not reproduce the reference landscape.

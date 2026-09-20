@@ -1,0 +1,15 @@
+Use case: identity-preserve
+Asset type: reusable character asset for a client-only web learning game
+
+Using the supplied mascot sheet only as Bubu's identity reference, create one
+full-body Bubu standing in a friendly welcoming pose. Bubu raises one hoof
+in a small thumbs-up and holds a slim gray tablet in the other hoof.
+
+Preserve the young orange-brown bull, round forest-green glasses, cream Bubu
+hoodie, green backpack, small horns, face, and proportions. Render in the same
+soft textured 2D gouache/storybook game style. Center the full figure with
+generous clear margins and a bottom-center ground anchor.
+
+Use genuine alpha transparency everywhere outside the character. Do not paint a
+checkerboard or any background. Do not add a cast shadow, scene, border, sign,
+extra text, extra limbs, or crop any extremity. Preserve clean antialiased edges.

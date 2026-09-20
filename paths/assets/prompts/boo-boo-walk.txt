@@ -1,0 +1,16 @@
+Use case: identity-preserve
+Asset type: reusable walking pose for the homepage mascot overlay
+
+Using the supplied mascot PNG only as Bubu's identity reference, create one
+full-body Bubu walking right in a friendly mid-stride. One hoof holds a slim
+gray tablet; the other arm is a small raised fist. Preserve the young
+orange-brown bull, round forest-green glasses, cream Bubu hoodie, green
+backpack, small horns, face, and proportions. Soft textured 2D gouache.
+
+Center the full figure with generous clear margins. Use genuine alpha
+transparency everywhere outside the character. Do not paint a checkerboard,
+magenta key, drop shadow, scene, or extra text. Keep horns, tail, and hooves
+inside the square.
+
+If a generator cannot emit alpha, render on a flat unused key color and
+remove that color so the shipped PNG has a real alpha channel.

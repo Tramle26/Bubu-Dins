@@ -1,0 +1,6 @@
+Use case: illustration-story
+Asset: Investing topic thumbnail, opaque square PNG.
+A small green sprout with two leaves growing from a rounded mound of brown
+soil. Soft textured gouache, cream and sage. Quiet pale mint backdrop.
+Readable at 56px. No people, lettering, charts, UI, logos, or watermarks.
+Keep the sprout large in the frame with modest padding.
