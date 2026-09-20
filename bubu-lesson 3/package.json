@@ -1,0 +1,24 @@
+{
+  "name": "bubu-portfolio-lesson",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bubu — Building Your Financial Portfolio: a zyBook-style interactive lesson backed by the Capital One Nessie sandbox.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/",
+    "probe": "node scripts/nessie-probe.mjs",
+    "seed": "node scripts/nessie-probe.mjs $npm_config_key --seed",
+    "scene": "node src/storyworld/serve.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

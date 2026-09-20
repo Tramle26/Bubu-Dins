@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
+const p = await (await b.newContext({ viewport:{width:1360,height:900} })).newPage();
+const errs=[]; p.on('pageerror',e=>errs.push(e.message));
+await p.goto('http://localhost:5175/', { waitUntil:'domcontentloaded' });
+await p.waitForTimeout(3000);
+console.log('pill   :', (await p.locator('#bank-pill').textContent()).trim());
+console.log('status :', (await p.locator('#bank-status').textContent()).trim());
+console.log('errors :', errs.length ? errs.slice(0,3) : 'none');
+await b.close();

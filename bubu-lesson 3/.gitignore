@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+.env.local
+src/storyworld/bank-scene.config.js
+.DS_Store
