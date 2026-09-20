@@ -1,0 +1,21 @@
+# Dependencies and local tooling
+node_modules/
+.venv/
+.venv-materials/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Generated materials index (rebuild with bun run materials:index)
+materials/search-index.json
+
+# Learner progress and chat history
+paths/people/*/state/
+paths/people/*/threads/
+
+# OS and editor junk
+.DS_Store
+**/.DS_Store
+.cursor/
